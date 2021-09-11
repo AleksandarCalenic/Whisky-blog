@@ -1,0 +1,14 @@
+.star__container {
+    padding-top: 5px;
+}
+.star__input {
+    display: none;    
+}
+.star {
+    cursor: pointer;
+    transition: color 200ms;
+    display: inline-block;
+}
+.star__active {
+    color: gold;
+}

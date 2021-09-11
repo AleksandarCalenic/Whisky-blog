@@ -1,0 +1,25 @@
+.card {
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: none;
+    animation: whisky-appear 0.5s ease-out forwards;
+    cursor: pointer;
+}
+.card:hover {
+  box-shadow: 15px 17px 30px 0px rgba(255,255,255,0.82);
+  -webkit-box-shadow: 12px 12px 30px 0px rgba(255, 255, 255, 0.5);
+}
+@keyframes whisky-appear {
+    from {
+      opacity: 0;
+      transform: scale(2);
+    }
+  
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+}
+

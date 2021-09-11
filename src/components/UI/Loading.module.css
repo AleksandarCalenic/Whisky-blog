@@ -1,0 +1,25 @@
+.loading {
+    color: white;
+    font-size: 50px;
+    margin: 0 auto;
+    display: block;
+    animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .loading {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .loading {
+        font-size: 30px;
+    }
+}

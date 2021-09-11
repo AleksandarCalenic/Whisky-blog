@@ -1,0 +1,49 @@
+.row {
+    text-align: center;
+    display: block;
+    margin-bottom: 30px;
+}
+.data {
+    display: inline-block;
+    width: 16.66%;
+}
+.data:nth-child(4n) {
+    width: 50%;
+    text-align: center;
+}
+.text {
+    margin-bottom: 20px;
+}
+.likes-dislikes {
+    padding-right: 50px;
+    text-align: right;
+}
+.likes-dislikes__like {
+    font-size: 25px;
+    padding-right: 25px;
+    background-color: transparent;
+    border: none;
+    transition: transform 0.2s ease-in-out;
+    &:nth-child(1n) {
+        margin-right: 5px;
+    }
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+.btn-active {
+    color: green;
+}
+.btn-dislikes {
+    color: red;
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .data {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .data {
+        font-size: 6px;
+    }
+}

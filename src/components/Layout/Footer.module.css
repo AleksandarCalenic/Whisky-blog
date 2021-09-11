@@ -1,0 +1,59 @@
+.footer {
+    text-align: center;
+    background-color: #68483b;
+    color: white;
+    padding: 20px 0 15px;
+}
+.footer__span {
+    display: block;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.footer__instgram:hover {
+    transform: scale(1.2);
+}
+.footer__instgram {
+    font-size: 35px;
+    color: white;
+    transition: 0.4s transform ease;	
+    margin-bottom: 25px;	
+}
+.footer__copy {
+    font-style: italic;
+}
+@media screen and (min-width: 769px) {
+    .footer {
+        margin-top: auto;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .footer {
+        padding: 20px 0 10px;
+    }
+    .footer__span {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .footer__instgram {
+        margin-bottom: 20px;	
+    }
+    .footer__copy {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .footer {
+        padding: 20px 0 5px;
+    }
+    .footer__span {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .footer__instgram {
+        font-size: 30px;
+        margin-bottom: 20px;	
+    }
+    .footer__copy {
+        font-size: 10px;
+    }
+}

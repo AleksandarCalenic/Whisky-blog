@@ -1,0 +1,21 @@
+.form__rating {
+    padding: 20px 30px;
+    background-color: white;
+    margin-bottom: 35px;
+    border-radius: 20px;
+}
+.form__rating-form {
+    display: flex;
+}
+.form__rating-select-rating {
+    text-align: center;
+}
+.form__rating-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form__rating-select {
+    padding: 5px 10px;
+    border-radius: 20px;
+}

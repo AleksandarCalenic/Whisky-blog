@@ -1,0 +1,70 @@
+.card {
+    width: 31%;
+    margin: 0 3.4% 5% 0;
+}
+.whisky__title {
+    color: #d29062;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.whisky__imgContainer {
+    margin: 0 auto 20px;
+    max-width: 400px;
+    height: auto;
+}
+.whisky__img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.whisky__rating-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whisky__rating {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+}
+.detail-container__active-star {
+    color: gold;
+}
+@media screen and (min-width: 1201px) {
+    .card:nth-child(3n) {
+        margin-right: 0;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 1200px) {
+    .whisky__title {
+        font-size: 22px;
+    }
+    .whisky__imgContainer {
+        margin: 0 auto 20px;
+        max-width: 400px;
+        height: auto;
+    }
+    .whisky__img {
+        height: auto;
+    }
+    .whisky__rating {
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .card {
+        width: 40%;
+    }
+    .card:nth-child(2n) {
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .card {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto 5%;
+    }
+}
